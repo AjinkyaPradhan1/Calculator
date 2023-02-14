@@ -3,3 +3,28 @@
     height: 100%;
     background-color:transparent;
 }
+.bt_col1{
+    width: 100%;
+    height: 20%;
+    background-color: red;
+}
+.bt_col2{
+    width: 100%;
+    height: 20%;
+    background-color: green;
+}
+.bt_col3{
+    width: 100%;
+    height: 20%;
+    background-color: red;
+}
+.bt_col4{
+    width: 100%;
+    height: 20%;
+    background-color: green;
+}
+.bt_col5{
+    width: 100%;
+    height: 20%;
+    background-color: red;
+}
