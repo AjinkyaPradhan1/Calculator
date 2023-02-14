@@ -7,3 +7,5 @@ function OutputSection(){
         </>
     );
 }
+
+export default OutputSection;

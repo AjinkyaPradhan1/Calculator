@@ -7,7 +7,7 @@ function App() {
     <div className="calc_wrapper">
       <div className='calc_main'>
         <div className='calc_output_screen'>
-          <Output />
+          <OutputSection />
         </div>
         <div className='calc_button'>
           <Button />
