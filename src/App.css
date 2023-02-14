@@ -21,6 +21,8 @@
   }
   .calc_output_screen{
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 40%;
     flex-grow: 2;
