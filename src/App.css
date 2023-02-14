@@ -28,6 +28,7 @@
   }
   .calc_button{
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: 70%;
     flex-grow: 7;

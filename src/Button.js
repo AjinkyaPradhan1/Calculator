@@ -3,7 +3,12 @@ import './Button.css'
 
 function Button(){
     return(
-        <button className='bt_calc'></button>
+        <div className="bt_main">
+            <div className="bt_col1"></div>
+            <div className="bt_col2"></div>
+            <div className="bt_col3"></div>
+            <div className="bt_col4"></div>
+        </div>
     );
 }
 
