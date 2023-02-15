@@ -15,7 +15,7 @@ function App() {
     <div className="calc_wrapper">
       <div className='calc_main'>
         <div className='calc_output_screen'>
-          <OutputSection result={result} text={text}/>
+          <OutputSection/>
         </div>
         <div className='calc_button'>
           <Button /> 

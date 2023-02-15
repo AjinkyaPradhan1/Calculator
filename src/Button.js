@@ -1,11 +1,19 @@
 import React from "react";
 import './Button.css'
+import { useState } from "react";
 
-function Button(){
+const Button = ({handleClick})=>{
+    const [text,setText] = useState("");
+    const [result,setResult] = useState("");
+
+    const addToText = (val) => {
+        setText((text)=>[...text,val+""]);
+      };
     return(
         <div className="bt_main">
+            
             <div className="bt_col1">
-                <div className="bt_col1_row1">+</div>
+                <div className="bt_col1_row1" value={"+"} onClick={e => addToText(e, "+")}>+</div>
                 <div className="bt_col1_row2">7</div>
                 <div className="bt_col1_row3">4</div>
                 <div className="bt_col1_row4">1</div>
