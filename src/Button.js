@@ -2,9 +2,10 @@ import React from "react";
 import './Button.css'
 import { useState } from "react";
 
-const Button = ({symbol})=>{
+const Button = ({symbol,handleClick})=>{
     return(
-        <div className="bt_main">
+        <div className="bt_main" onClick={()=>handleClick(symbol)}>
+            
             {symbol}
             {/* <div className="bt_col1">
                 <div className="bt_col1_row1">+</div>
