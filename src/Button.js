@@ -1,6 +1,5 @@
 import React from "react";
 import './Button.css'
-import { useState } from "react";
 
 const Button = ({symbol,handleClick})=>{
     return(
