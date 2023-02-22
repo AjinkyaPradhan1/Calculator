@@ -8,15 +8,12 @@ function App() {
   const [text,setText] = useState("Bye");
   const [result,setResult] = useState("Hi");
 
-  const addToText = (val) => {
-    setText((text)=>[...text,val+" "]);
-  };
+  
   return (
-    // <OutputSection text={text} result={result}/>
     <div className="calc_wrapper">
       <div className='calc_main'>
         <div className='calc_output_screen'>
-          <OutputSection/>
+          <OutputSection text={text} result={result}/>
         </div>
         <div className='calc_button'>
           
