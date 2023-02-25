@@ -47,7 +47,7 @@ function App() {
             </div>
 
             <div className="bt_col3">
-              <Button symbol="x" handleClick={addToText}/>
+              <Button symbol="*" handleClick={addToText}/>
               <Button symbol="9" handleClick={addToText}/>
               <Button symbol="6" handleClick={addToText}/>
               <Button symbol="3" handleClick={addToText}/>
